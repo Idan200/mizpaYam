@@ -72,40 +72,40 @@
     <Content Include="App_Data\MyDB_log.ldf">
       <DependentUpon>MyDB.mdf</DependentUpon>
     </Content>
-    <Content Include="Home\HomePage.aspx" />
-    <Content Include="Home\HomePage.css" />
+    <Content Include="HomePage.aspx" />
+    <Content Include="HomePage.css" />
     <Content Include="img\mizpa-Yam_img.png" />
     <Content Include="index.css" />
     <Content Include="index.html" />
-    <Content Include="logIn\logIn.aspx" />
-    <Content Include="logIn\logIn.css" />
-    <Content Include="signUp\signUp.js" />
-    <Content Include="signUp\signUp.aspx" />
-    <Content Include="signUp\signUp.css" />
+    <Content Include="logIn.aspx" />
+    <Content Include="logIn.css" />
+    <Content Include="signUp.js" />
+    <Content Include="signUp.aspx" />
+    <Content Include="signUp.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Home\HomePage.aspx.cs">
+    <Compile Include="HomePage.aspx.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Home\HomePage.aspx.designer.cs">
+    <Compile Include="HomePage.aspx.designer.cs">
       <DependentUpon>HomePage.aspx</DependentUpon>
     </Compile>
-    <Compile Include="logIn\logIn.aspx.cs">
+    <Compile Include="logIn.aspx.cs">
       <DependentUpon>logIn.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="logIn\logIn.aspx.designer.cs">
+    <Compile Include="logIn.aspx.designer.cs">
       <DependentUpon>logIn.aspx</DependentUpon>
     </Compile>
     <Compile Include="myadohelper[1].cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="signUp\signUp.aspx.cs">
+    <Compile Include="signUp.aspx.cs">
       <DependentUpon>signUp.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="signUp\signUp.aspx.designer.cs">
+    <Compile Include="signUp.aspx.designer.cs">
       <DependentUpon>signUp.aspx</DependentUpon>
     </Compile>
   </ItemGroup>

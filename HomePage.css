@@ -1,0 +1,102 @@
+﻿body {
+    background-color: #aaa;
+}
+
+a {
+    cursor: pointer;
+}
+
+.header-main {
+    width: 100%;
+    height: 70px;
+    background-color: #272727;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.header-main-logo {
+    width: fit-content;
+    height: 100%;
+    display: flex;
+}
+
+    .header-main-logo img {
+        height: 70px;
+        align-self: center;
+        background-color: #1E90FF;
+        border-radius: 10px;
+    }
+
+.header-main-nav {
+    width: fit-content;
+    height: 100%;
+}
+
+    .header-main-nav ul {
+        list-style: none;
+    }
+
+        .header-main-nav ul li {
+            display: inline;
+            float: left;
+        }
+
+            .header-main-nav ul li a {
+                padding: 0 10px;
+                font-family: Arial, Helvetica, sans-serif;
+                line-height: 40px;
+                text-decoration: none;
+                font-weight: bold;
+                color: white;
+            }
+
+                .header-main-nav ul li a:hover {
+                    color: #1E90FF;
+                }
+
+.header-main-sm {
+    width: fit-content;
+    height: 100%;
+}
+
+    .header-main-sm ul {
+        list-style: none;
+    }
+
+        .header-main-sm ul li {
+            display: inline;
+            float: left;
+        }
+
+            .header-main-sm ul li a {
+                font-family: Arial, Helvetica, sans-serif;
+                text-decoration: none;
+                color: #fff;
+                font-weight: bold;
+                font-size: 20px;
+                transition: color 0.2s ease-in-out;
+                color: #fff;
+            }
+
+                .header-main-sm ul li a:hover {
+                    color: #272727;
+                }
+
+.signUp {
+    display: inline-block;
+    padding: 8px 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff;
+    background-color: #1E90FF;
+    border-radius: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin-right: 10px;
+}
+
+    .LogIn:hover {
+        background-color: #4169E1;
+    }

@@ -1,0 +1,55 @@
+﻿body {
+    background-color: #aaa;
+}
+
+.signUpFile {
+    position: relative;
+    top: 70px;
+    width: 600px;
+    height: 600px;
+    background-color: #272727;
+    border-radius: 100px;
+}
+
+.fileInfo {
+    position: relative;
+    top: 60px;
+}
+
+h1 {
+    color: #1E90FF;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.submitButton {
+    background-color: #1E90FF;
+    font-size: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 5px;
+    color: #272727;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+    .submitButton:hover {
+        color: white;
+    }
+
+.info {
+    font-size: 30px;
+    text-align: center;
+    background-color: #aaa;
+    border-radius: 15px;
+    font-weight: bold;
+    color: #1E90FF;
+}
+
+.msg {
+    font-size: 30px;
+    text-align: center;
+    background-color: #272727;
+    border: none;
+    font-weight: bold;
+}
