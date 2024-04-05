@@ -1,0 +1,63 @@
+﻿body {
+    background-color: #272727;
+    color: white;
+}
+
+.welcome {
+    width: contain;
+    height: 200px;
+    background-color: #aaa;
+    color: #272727;
+}
+
+    .welcome p {
+        position: relative;
+        font-size: 60px;
+        text-align: center;
+        top: 65px;
+        font-weight: bold;
+    }
+
+.neon-text {
+    color: #00ccff;
+    text-shadow: 0 0 10px #1E90FF, 0 0 20px #1E90FF, 0 0 30px #1E90FF, 0 0 40px #1E90FF;
+    text-decoration: underline;
+}
+
+.button-style {
+    position: relative;
+    top: 200px;
+    color: white;
+    background-color: #1E90FF;
+    font-size: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+    .button-style:hover {
+        color: #272727;
+        border-radius: 0;
+    }
+
+    .signUp {
+        position: relative;
+        left: 70px;
+        bottom: 20px;
+    }
+
+    .logIn {
+        position: relative;
+        right: 70px;
+        bottom: 20px;
+    }
+
+    .Admin {
+        position: relative;
+        top: 450px;
+    }
